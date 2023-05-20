@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <nav class="navbar">
+            <a href="#" class="head">Library System</a>
+
+            <ul class="menu">
+                <li> <a href="#books">Books</a> </li>
+                <li> <a href="#reg">Register</a> </li>
+                <li> <a href="#">Contact Us</a> </li>
+                <li> <a href="#">Logout</a> </li>
+            </ul>
+        </nav>
+        <br><br><br>
+    
+    <section>
+        <table id="books" class="table" border="2px">   
+         <thead> <center><h2>Books</h2></center>
+            <th>Book ID</th>
+           <th>Title</th>
+           <th>Author</th>
+           <th>Genre</th>
+           <th>Avilability</th>
+         </thead>
+
+         <tbody>
+             <tr >
+                <td >1</td>
+                <td ><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxjb3Ntb2Rlc2lnbjM2MHxneDo0MTY0MzFjMmQzNmU3ZWI2" target="_blank">
+                    The Secret</a>
+                  <br><br> publication Date:Nov 2006
+                  <br> <br> Page Count:206 <br>
+                  <br>ISBN:9781416554998</td>
+                  <td>Rhonda Byrne</td>
+                  <td>Self-help book</td>
+                  <td>Available</td>
+             </tr>
+             <tr>
+                 <td>2</td>
+                 <td><a href="https://www.google.com/search?q=the+power+now+pdf&rlz=1C1UEAD_enIN973IN973&sxsrf=APwXEdfJi3f727_eEIWrP6xaeDFj1081yQ%3A1684593689349&ei=GdxoZLPvFPTn4-EP3Y202A8&oq=The+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCKBRAnMgcIIxCKBRAnMgQIIxAnMgoILhCKBRDUAhBDMgcILhCKBRBDMgcILhCKBRBDMgcILhCKBRBDMgoILhCKBRDUAhBDMgoILhCKBRDUAhBDMgcIABCKBRBDOgoIABBHENYEELADOgoIABCKBRCwAxBDOg0IABDkAhDWBBCwAxgBOg8ILhCKBRDIAxCwAxBDGAI6BwgjEOoCECc6EgguEIoFEMgDEOoCELQCEEMYAjoKCC4Q1AIQigUQQ0oECEEYAFClB1jIIGCKL2gCcAF4BIABygiIAaUukgELMy0yLjEuMS4wLjSYAQCgAQGwARLIARDAAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz-serp" target="_blank">
+                    The Power of Now</a>
+                 <br><br>publication Date:1997
+                  <br><br>Page Count:236
+                  <br><br>ISBN:1577314808 </td>
+                  <td>Eckhart Tolle</td>
+                  <td>Self-help book</td>
+                  <td>Available</td>
+
+             </tr>
+             <tr>
+                <td>3</td>
+                <td><a href="https://colab.research.google.com/drive/1a6r2ETHXvAJfvbY23fCAx-MDxiX8S_A7" target="_blank">
+                    The Joys of Compounding</a>
+                <br><br>publication Date:April 2019
+                <br><br>Page Count:305
+                <br><br>ISBN:9789390351015
+
+            </td>
+            <td>Gautam Baid</td>
+            <td>Biography</td>
+            <td>Available</td>
+             </tr>
+             <tr>
+                <td>4</td>
+                <td><a href="https://colab.research.google.com/drive/1a6r2ETHXvAJfvbY23fCAx-MDxiX8S_A7" target="_blank">
+                    Tap Dancing to Work</a>
+                <br><br>publication Date:April 2019
+                <br><br>Page Count:305
+                <br><br>ISBN:9789390351015
+
+            </td>
+            <td>Warren Buffett</td>
+            <td>Biography</td>
+            <td>Available</td>
+             </tr>
+             <tr>
+                <td>5</td>
+                <td><a href="https://colab.research.google.com/drive/1a6r2ETHXvAJfvbY23fCAx-MDxiX8S_A7" target="_blank">
+                    The Warren Buffett Way</a>
+                <br><br>publication Date:April 2019
+                <br><br>Page Count:305
+                <br><br>ISBN:9789390351015
+
+            </td>
+            <td>Warren Buffett</td>
+            <td>Biography</td>
+            <td>Available</td>
+             </tr>
+         </tbody>
+        </table>
+    </section>
+    <br>
+    <section id="reg">
+        <h2>Register</h2><br>
+        <form action="#">
+         <div>
+            <label for="first name">First Name</label><br>
+            <input type="text" name="name"  required> <br>
+            <label for="last name">Last Name</label><br>
+            <input type="text" name="last name" required>
+         </div>
+         <div>
+            <label for="date of barth">Date Of Birth</label><br>
+            <input type="date" required>
+         </div>
+         <div>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" minlength="5" required>
+         </div>
+         <div>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" required>
+         </div>
+         <div>
+            <label for="password">Password</label><br>
+            <input type="password" name="password">
+         </div>
+         <div>
+            <label for="confrim password">Confrim Password</label><br>
+            <input type="password" name="confrim password">
+         </div>
+         <input type="submit">
+        </form>
+       </section>
+</body>
+</html>
